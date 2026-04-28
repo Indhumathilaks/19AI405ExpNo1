@@ -40,7 +40,9 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
- ## CODE:
+
+## CODE:
+
 ```
 import random
 import time
@@ -225,4 +227,9 @@ environment.run(steps=10)
 print(environment.status)
 print(agent.performance)
 ```
- 
+ ## OUTPUT:
+ <img width="491" height="115" alt="image" src="https://github.com/user-attachments/assets/f2f29bd8-d649-49eb-b00c-b2ac6e862d8a" />
+
+
+ ## RESULT:
+The above algorithem run successful and the cleaning process was running successfully.
